@@ -27,7 +27,7 @@
             else
             {
 
-                for (int j = 2; j < number; j++)
+                for (int j = 2; j < Math.Sqrt(number); j++)
                 {
                     if (number % j == 0) { Isprime = false; }
                 }
